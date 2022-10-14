@@ -69,7 +69,7 @@ function App() {
     }
   };
   useEffect(() => {
-    UseRedirectToHttps();
+    // UseRedirectToHttps();
     navigator.geolocation.getCurrentPosition(function (position) {
       setLatitude(position.coords.latitude);
       setLongitude(position.coords.longitude);
@@ -116,7 +116,7 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col justify-between h-screen">
       <Header />
       <Content />
       <Footer />

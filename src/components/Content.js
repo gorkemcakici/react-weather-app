@@ -6,7 +6,7 @@ const Content = () => {
 
   if (Object.keys(weather).length > 0) {
     return (
-      <div className="flex flex-col gap-y-10 md:gap-y-20 p-5">
+      <div className="flex flex-col gap-y-10 md:gap-y-20 p-5 flex-1 mt-10">
         <CurrentCard />
         <DailyCard />
       </div>
